@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --button-color: #f29f05;
+    --text-color: gray;
+    --box-shadow: 0px -1px 30px 4px #0000000d;
+}
+
+h1{
+     text-align: center;
+     font-size: 50px;
+     font-weight: bold;
+     font-family: sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 3rem 6rem;
+     color: #8f7979;
+}
+
+.items-n-total{
+    display: flex;
+    gap: 1rem;
+    padding: 3rem;
+
+}
+
+.items{
+    padding: 2rem 4.5rem;
+}
+
+.cart_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    border-bottom: #1d1c1c solid 2px;
+    padding: 2rem;
+}
+
+.cart_item1 img{
+    width: 190px;
+}
+
+.cuisine{
+    font-size: 26px;
+    color: var(--text-color);
+}
+
+.price{
+    color: var(--button-color);
+    font-size: 26px;
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.number > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtract , .adder{
+    padding: 1rem;
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    color: var(--button-color);
+    transition: ease .5s;
+}
+
+.subtract:hover, .adder:hover{
+    background: var(--button-color);
+    color: white;
+}
+
+/* total */
+.total-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+.total{
+    background: white;
+    box-shadow: var(--box-shadow);
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.total > .header{
+    display: block;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.total h4{
+    display: block;
+    font-size: 30px;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.total > button{
+    background: var(--button-color);
+    color: white;
+    width: 250px;
+    margin-top: 1.5rem;
+    border: 1px var(--button-color);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: .8rem 2rem;
+}
+
+
+
