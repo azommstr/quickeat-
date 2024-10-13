@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -340,6 +340,7 @@ u
     text-align: center;
     background: #f8f9fa;
 }
+
 .works-container > h2{
     font-size: 38px;
     color: var(--brown);
@@ -390,15 +391,12 @@ u
         margin-top: 4rem;
         gap: 4rem;
     }
-
-    .works> .work > p{
-        padding: 0 7rem;
-    }
 }
 
 @media (max-width: 450px) {
 
     .works-container{
+        margin-top: 5rem;
         padding-top: 5rem;
     }
 
